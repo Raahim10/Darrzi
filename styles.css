@@ -764,7 +764,7 @@ header {
 .img-capsule {
   width: 320px;
   height: 180px;
-  background-image: url(/assets/fabric.gif);
+  background-image: url(assets/fabric.gif);
   background-size: cover;
   background-position: center;
   border-radius: 100px;
@@ -1038,9 +1038,9 @@ header {
 
   .menu {
     width: 100%;
-    background-color: var(--primary-color);
-    height: 70%;
-    border-radius: 10px;
+    background-color: #ffffff;
+    height: 75%;
+    border-radius: 15px;
   }
 
   .close-btn {
@@ -1059,7 +1059,7 @@ header {
   }
 
   .menu-logo h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     font-weight: 700;
   }
@@ -1077,7 +1077,7 @@ header {
 
   .menu-links ul li a {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     padding: 8px;
     font-weight: 500;
   }
