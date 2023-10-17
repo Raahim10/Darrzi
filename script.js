@@ -102,11 +102,12 @@ function mobileMenu() {
     var close = document.querySelector('.close');
     var burger = document.querySelector('.burger');
     burger.addEventListener('click', () => {
-        mobmenu.style.display = 'block';
+
+        mobmenu.style.transform = "translateX(0)";
         sechero.style.display = "none";
     })
     close.addEventListener('click', () => {
-        mobmenu.style.display = 'none';
+        mobmenu.style.transform = "translateX(-430px)";
         sechero.style.display = "block";
     })
 
