@@ -95,5 +95,25 @@ function followImage() {
     });
 }
 
+
+function mobileMenu() {
+    var sechero = document.querySelector('.sechero');
+    var mobmenu = document.querySelector('.mob-menu');
+    var close = document.querySelector('.close');
+    var burger = document.querySelector('.burger');
+    burger.addEventListener('click', () => {
+        mobmenu.style.display = 'block';
+        sechero.style.display = "none";
+    })
+    close.addEventListener('click', () => {
+        mobmenu.style.display = 'none';
+        sechero.style.display = "block";
+    })
+
+}
+
+
+
 video();
 followImage();
+mobileMenu();

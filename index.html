@@ -6,9 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
 
-  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
@@ -24,7 +30,40 @@
 
 <body>
 
-  <div class="man smooth-scroll">
+
+
+  <div>
+
+    <div class="mob-menu">
+      <div class="menu">
+        <div class="close-btn">
+          <span class="close"> <i class="ri-close-line"></i></span>
+        </div>
+        <div class="menu-logo">
+          <a href="index.html">
+            <H1>Darrzi</H1>
+          </a>
+        </div>
+
+        <div class="menu-links">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+              <a href="">Shop</a>
+              <a href="">Blog</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-social-icon">
+          <span><i class="ri-facebook-circle-fill"></i></span>
+          <span><i class="ri-instagram-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+        </div>
+      </div>
+    </div>
+
     <nav class="section__container nav__container ">
       <a href="#" class="nav__logo magnet">Darrzi
 
@@ -32,18 +71,26 @@
       <ul class="nav__links">
         <li class="link"><a href="#">HOME</a></li>
         <li class="link"><a href="#">SHOP</a></li>
-        <li class="link"><a href="#">PAGES</a></li>
         <li class="link"><a href="#">BLOG</a></li>
-        <li class="link"><a href="D:\My Scripts\.vscode\Html\About.html">About Us</a></li>
+        <li class="link"><a href="#">About Us</a></li>
       </ul>
       <div class="nav__icons " style="gap: 2rem;">
-        <span class="magnet myicon"><i class="  ri-user-line"></i></span>
+        <span class="magnet "><i class="  ri-user-line"></i></span>
         <span class="magnet"><i class="  ri-search-line"></i></span>
         <span class="magnet"><i class="  ri-shopping-bag-line"></i></span>
       </div>
+      <div class="mobile__nav">
+        <span class="magnet"><i class="  ri-shopping-bag-line"></i></span>
+        <span class="magnet burger"><i class="ri-menu-line"></i></span>
+
+        <span class="magnet myicon"></span>
+      </div>
     </nav>
+
     <div class="superhero view-card">
       <div class="top">
+
+
 
         <!-- <div class="working-box">
             <div class="text-box">
@@ -64,390 +111,419 @@
         <img src="./assets/hero/Designer2.webp" alt="">
         <img src="./assets/hero/kurta collection.webp" alt="">
         <img src="./assets/hero/Unstitched.webp" alt="">
+        <img src="./assets/hero/Waistcoat 2.webp" alt="">
+        <img src="./assets/hero/Unstitched 2.webp" alt="">
         <img src="./assets/hero/kurta collection.webp" alt="">
         <img src="./assets/hero/Shalwar_Kameez.webp" alt="">
+
       </div>
     </div>
+    <div class="mobile-hero slider">
+      <div class="mob-card">
+        <img src="assets/hero/Designer2.webp" alt="">
+      </div>
+      <div class="mob-card">
+        <img src="assets/hero/kurta collection.webp" alt="">
+      </div>
+      <div class="mob-card">
+        <img src="assets/hero/Unstitched.webp" alt="">
+      </div>
+      <div class="mob-card">
+        <img src="assets/hero/Shalwar_Kameez.webp" alt="">
+      </div>
+      <div class="mob-card">
+        <img
+          src="https://thecambridgeshop.com/cdn/shop/files/Unstitched_a49ec685-0eda-4f4a-a3c7-f50603dec21e.webp?v=16972810521500"
+          alt="">
+      </div>
+      <div class="mob-card">
+        <img
+          src="https://thecambridgeshop.com/cdn/shop/files/Waistcoat_5591f739-7793-45ac-a6e7-16ac2de2bd4b.webp?v=16972847031500"
+          alt="">
+      </div>
+      <div class="mob-card">
+        <img src="https://thecambridgeshop.com/cdn/shop/files/Junio.webp?v=16946042181500" alt="">
+      </div>
+
+    </div>
+    <div class="sechero">
 
 
-
-    <div class="main">
-      <!-- <div style="display: none;" class="header__bar">Free Shipping on Orders Over $50</div>
-        <nav class="section__container nav__container">
-          <a href="#" class="nav__logo magnet">Darrzi
-    
-          </a>
-          <ul class="nav__links">
-            <li class="link"><a href="#">HOME</a></li>
-            <li class="link"><a href="#">SHOP</a></li>
-            <li class="link"><a href="#">PAGES</a></li>
-            <li class="link"><a href="#">BLOG</a></li>
-            <li class="link"><a href="D:\My Scripts\.vscode\Html\About.html">About Us</a></li>
-          </ul>
-          <div class="nav__icons " style="gap: 2rem;">
-            <span class="magnet"><i class="  ri-user-line"></i></span>
-            <span class="magnet"><i class="  ri-search-line"></i></span>
-            <span class="magnet"><i class="  ri-shopping-bag-line"></i></span>
-          </div>
-        </nav> -->
-
-
-      <section class="video">
-        <div class="video-container">
-          <div class="scrollable-container">
-            <video class="scrollable-image" autoplay muted src="assets/Production process.mp4"></video>
-          </div>
-        </div>
-      </section>
+      <div class="main">
+        <!-- <div style="display: none;" class="header__bar">Free Shipping on Orders Over $50</div>
+              <nav class="section__container nav__container">
+                <a href="#" class="nav__logo magnet">Darrzi
+          
+                </a>
+                <ul class="nav__links">
+                  <li class="link"><a href="#">HOME</a></li>
+                  <li class="link"><a href="#">SHOP</a></li>
+                  <li class="link"><a href="#">PAGES</a></li>
+                  <li class="link"><a href="#">BLOG</a></li>
+                  <li class="link"><a href="D:\My Scripts\.vscode\Html\About.html">About Us</a></li>
+                </ul>
+                <div class="nav__icons " style="gap: 2rem;">
+                  <span class="magnet"><i class="  ri-user-line"></i></span>
+                  <span class="magnet"><i class="  ri-search-line"></i></span>
+                  <span class="magnet"><i class="  ri-shopping-bag-line"></i></span>
+                </div>
+              </nav> -->
 
 
-      <section class="section__container sale__container">
-        <h2 class="section__title">On Sale</h2>
-        <div class="sale__grid">
-          <div class="sale__card">
-            <img src="assets/all/good.jpg" alt="sale" />
-            <div class="sale__content">
-              <p class="sale__subtitle">NEW</p>
-              <h4 class="sale__title">sale <span>40%</span> off</h4>
-              <p class="sale__subtitle">- DON'T MISS -</p>
-              <div class="magnet">
-                <button class=" cool-btn cool-btn2">SHOP NOW</button>
-              </div>
-            </div>
-          </div>
-          <div class="sale__card">
-            <img src="assets/all/good 4.jpg" alt="sale" />
-            <div class="sale__content">
-              <p class="sale__subtitle">UNSTITCHED</p>
-              <h4 class="sale__title">sale <span>25%</span> off</h4>
-              <p class="sale__subtitle">- DON'T MISS -</p>
-              <div class="magnet">
-                <button class=" cool-btn cool-btn2">SHOP NOW</button>
-              </div>
-            </div>
-          </div>
-          <div class="sale__card">
-            <img src="assets/all/header 3.jpg" alt="sale" />
-            <div class="sale__content">
-              <p class="sale__subtitle">TOP SALING</p>
-              <h4 class="sale__title">sale <span>20%</span> off</h4>
-              <p class="sale__subtitle">- DON'T MISS -</p>
-              <div class="magnet">
-                <button class=" cool-btn cool-btn2">SHOP NOW</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="follow-image">
-        <div class="follow-image-container">
-          <div class="my-follow-image">
-            <img class="" src=" https://i.pinimg.com/originals/6f/10/1e/6f101e7e3fe0f99f2a7f29019180fe42.gif"
-              alt="Your Image">
-          </div>
-        </div>
-
-        <section class="section__container collection__container">
-          <img src="assets/all/good 2.jpg" alt="collection" />
-          <div class="collection__content">
-            <div class="magnet">
-              <h2 class="section__title">New Collection</h2>
-            </div>
-            <p>#35 ITEMS</p>
-            <h4>Available on Store</h4>
-            <div class="magnet">
-              <button class="cool-btn cool-btn4 magnet">Shop Now</button>
-
+        <section class="video">
+          <div class="video-container">
+            <div class="scrollable-container">
+              <video class="scrollable-image" autoplay muted src="assets/Production process.mp4"></video>
             </div>
           </div>
         </section>
 
-      </div>
 
-
-
-      <section class="section__container musthave__container"
-        style="display: flex; flex-direction: column; align-items: center;">
-        <div class="magnet">
-          <h2 class="section__title">Must Have</h2>
-        </div>
-        <div class="musthave__nav">
-          <a href="#">ALL</a>
-          <a href="#">NEW</a>
-          <a href="#">SALE</a>
-          <a href="#">UNSTITCHED</a>
-          <a href="#">OUTFITS</a>
-        </div>
-        <div class="musthave__grid">
-          <div class="musthave__card">
-            <img src="assets/all/0MSTEKR23V53_12.jpg" alt="must have" />
-            <h4>Basic long sleeve T-shirt</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23V211_2.jpg" alt="must have" />
-            <h4>Ribbed T-shirt with buttons</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV35_1.jpg" alt="must have" />
-            <h4>Jacket withside strips</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV34_12.jpg" alt="must have" />
-            <h4>High-heel tubular sandals</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV14_2.jpg" alt="must have" />
-            <h4>Coral fabric belt Outfits</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV14_3.jpg" alt="must have" />
-            <h4>Piggy skater slogan T-shirt</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV14_22.jpg" alt="must have" />
-            <h4>White platform boots</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV12_1.jpg" alt="must have" />
-            <h4>Sweater vest with sleeves</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV11_5.jpg" alt="must have" />
-            <h4>Slim fit pants</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV12_4.jpg" alt="must have" />
-            <h4>Gray backpack</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/MSTEKR23IV13_1.jpg" alt="must have" />
-            <h4>Neon sweatshirt</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-          <div class="musthave__card">
-            <img src="assets/all/00MSTKR23V31_42.jpg" alt="must have" />
-            <h4>Hooded nautical jacket</h4>
-            <p><del>$45.00</del> $75.00</p>
-          </div>
-        </div>
-      </section>
-      <div class="section__container header__container Yscroll">
-        <div class="header__content">
-          <div style="text-align: center;">
-            <p>EXTRA 55% OFF IN SPRING SALE</p>
-            <div class="img-capsule">
+        <section class="section__container sale__container">
+          <div style="display: flex; justify-content: center;">
+            <div class="magnet">
+              <h2 class="section__title">On Sale</h2>
             </div>
           </div>
-          <span class="hero">
-            <h1>Discover and</h1>
-            <div class="textbtn">
-              <span>
-                <h1>Shop</h1>
-              </span>
-              <span class="magnet">
-                <button class="magnet cool-btn cool-btn4" style="background-color: black;">Shop
-                  Now</button>
-              </span>
-            </div>
-            <!-- <h2>The Trend Ss19</h2> -->
-          </span>
-        </div>
-        <div class="header__image">
-          <!-- <img src="assets/header 2.png" alt="header" /> -->
-        </div>
-      </div>
-
-
-
-      <section class="section__container">
-        <div class="instagran-container" style="display: flex; flex-direction: column; align-items: center;">
-          <div class="magnet">
-            <h2 class="section__title">INSTAGRAM</h2>
-          </div>
-          <h4>JOIN THE COMMUNITY, #BeTheChange</h4>
-          <div class="instagram__grid view-card">
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/00MSTKR23V35_2.jpg" alt="instagram" />
-            </div>
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/sherwanis-thumbnails.jpg" alt="instagram" />
-            </div>
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/MSTEKR23V211_4.jpg" alt="instagram" />
-            </div>
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/0MSTEKR23V38_1.jpg" alt="instagram" />
-            </div>
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/2-piece-thumbnails.jpg" alt="instagram" />
-            </div>
-            <div class="insta-box" data-cursor-text="View">
-              <img src="assets/all/intermix-thumbnail_96c4ae77-4f48-4293-a8e6-c0e420dc02c22.jpg" alt="instagram" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr />
-
-      <footer class="section__container footer__container">
-        <div class="footer__col">
-          <div class="magnet">
-            <h4 class="footer__heading">CONTACT INFO</h4>
-          </div>
-          <p>
-            <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
-          </p>
-          <p><i class="ri-mail-fill"></i> support@darrzi.com</p>
-          <p><i class="ri-phone-fill"></i> (+92) 123 45678</p>
-        </div>
-        <div class="footer__col">
-          <div class="magnet">
-            <h4 class="footer__heading">COMPANY</h4>
-          </div>
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Work With Us</p>
-          <p>Our Blog</p>
-          <p>Terms & Conditions</p>
-        </div>
-        <div class="footer__col">
-          <div class="magnet">
-            <h4 class="footer__heading">USEFUL LINK</h4>
-          </div>
-          <p>Help</p>
-          <p>Track My Order</p>
-          <p>Men</p>
-          <p>Festive</p>
-          <p>Shoes</p>
-        </div>
-        <div class="footer__col">
-          <div class="magnet">
-            <h4 class="footer__heading">NEWSLETTER</h4>
-          </div>
-          <div class="footer__form">
-            <form>
-              <input type="text" placeholder="ENTER YOUR EMAIL" />
-              <div class="magnet">
-                <button class="btn" style="color: white; border-radius: 20px; padding: 1.1rem 2rem;"
-                  type="submit">SUBSCRIBE</button>
+          <div class="sale__grid">
+            <div class="sale__card">
+              <img src="assets/all/good.jpg" alt="sale" />
+              <div class="sale__content">
+                <p class="sale__subtitle">NEW</p>
+                <h4 class="sale__title">sale <span>40%</span> off</h4>
+                <p class="sale__subtitle">- DON'T MISS -</p>
+                <div class="magnet">
+                  <button class=" cool-btn cool-btn2">SHOP NOW</button>
+                </div>
               </div>
-            </form>
+            </div>
+            <div class="sale__card">
+              <img src="assets/all/good 4.jpg" alt="sale" />
+              <div class="sale__content">
+                <p class="sale__subtitle">UNSTITCHED</p>
+                <h4 class="sale__title">sale <span>25%</span> off</h4>
+                <p class="sale__subtitle">- DON'T MISS -</p>
+                <div class="magnet">
+                  <button class=" cool-btn cool-btn2">SHOP NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="sale__card">
+              <img src="assets/all/header 3.jpg" alt="sale" />
+              <div class="sale__content">
+                <p class="sale__subtitle">TOP SALING</p>
+                <h4 class="sale__title">sale <span>20%</span> off</h4>
+                <p class="sale__subtitle">- DON'T MISS -</p>
+                <div class="magnet">
+                  <button class=" cool-btn cool-btn2">SHOP NOW</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </footer>
+        </section>
 
-      <hr />
+        <div class="follow-image">
+          <div class="follow-image-container">
+            <div class="my-follow-image">
+              <img class="" src=" https://i.pinimg.com/originals/ff/13/a8/ff13a8ac4c8225723b47587d4adb093e.gif"
+                alt="Your Image">
+            </div>
+          </div>
 
-      <div class="section__container footer__bar">
-        <div class="copyright">
-          Copyright © 2023 Darrzi. All rights reserved.
+          <section class="section__container collection__container">
+            <img src="assets/all/good 2.jpg" alt="collection" />
+            <div class="collection__content">
+              <div class="magnet">
+                <h2 class="section__title">New Collection</h2>
+              </div>
+              <p>#35 ITEMS</p>
+              <h4>Available on Store</h4>
+              <div class="magnet">
+                <button class="cool-btn cool-btn4 magnet">Shop Now</button>
+
+              </div>
+            </div>
+          </section>
+
         </div>
+
+
+
+        <section class="section__container musthave__container"
+          style="display: flex; flex-direction: column; align-items: center;">
+          <div class="magnet">
+            <h2 class="section__title">Must Have</h2>
+          </div>
+          <div class="musthave__nav">
+            <a href="#">ALL</a>
+            <a href="#">NEW</a>
+            <a href="#">SALE</a>
+            <a href="#">UNSTITCHED</a>
+            <a href="#">OUTFITS</a>
+          </div>
+          <div class="musthave__grid">
+            <div class="musthave__card">
+              <img src="assets/all/0MSTEKR23V53_12.jpg" alt="must have" />
+              <h4>Mauve Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23V211_2.jpg" alt="must have" />
+              <h4>Embroidered Cotton Rangoli Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV35_1.jpg" alt="must have" />
+              <h4>Cotton Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV34_12.jpg" alt="must have" />
+              <h4>Classic Cotton Slub Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV14_2.jpg" alt="must have" />
+              <h4>Cotton Embroidered Kurta - Levander</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV14_3.jpg" alt="must have" />
+              <h4>Blue Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV14_22.jpg" alt="must have" />
+              <h4>Rust Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV12_1.jpg" alt="must have" />
+              <h4>Grey Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV11_5.jpg" alt="must have" />
+              <h4>Dark Grey Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV12_4.jpg" alt="must have" />
+              <h4>Light Grey Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/MSTEKR23IV13_1.jpg" alt="must have" />
+              <h4>Blended Embroidered Kurta - Cream</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+            <div class="musthave__card">
+              <img src="assets/all/00MSTKR23V31_42.jpg" alt="must have" />
+              <h4>Schiffli Cotton Embroidered Kurta</h4>
+              <p><del>$45.00</del> $75.00</p>
+            </div>
+          </div>
+        </section>
+
+
+        <div id="outer">
+          <div id="tick">
+            <li>
+              <a style="cursor: default; pointer-events: none;" href="">
+                <div class="section__container header__container Yscroll">
+                  <div class="header__content">
+                    <div class="mob" style="text-align: center;">
+                      <p>EXTRA 55% OFF IN SPRING SALE</p>
+                      <div class="img-capsule">
+                      </div>
+                    </div>
+                    <span class="hero">
+                      <h1>Discover and</h1>
+                      <div class="textbtn">
+                        <span>
+                          <h1>Shop</h1>
+                        </span>
+                        <span class="magnet">
+                          <button class="magnet cool-btn cool-btn4" style="background-color: black;">Shop
+                            Now</button>
+                        </span>
+                      </div>
+                      <!-- <h2>The Trend Ss19</h2> -->
+                    </span>
+                  </div>
+                  <div class="header__image">
+                    <!-- <img src="assets/header 2.png" alt="header" /> -->
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a style="cursor: default; pointer-events: none;" href="">
+                <div class="section__container header__container Yscroll mob-cap">
+                  <div class="header__content">
+                    <div class="mob" style="text-align: center;">
+                      <p>EXTRA 55% OFF IN SPRING SALE</p>
+                      <div class="img-capsule">
+                      </div>
+                    </div>
+                    <span class="hero">
+                      <h1>Discover and</h1>
+                      <div class="textbtn">
+                        <span>
+                          <h1>Shop</h1>
+                        </span>
+                        <span class="magnet">
+                          <button class="magnet cool-btn cool-btn4" style="background-color: black;">Shop
+                            Now</button>
+                        </span>
+                      </div>
+                      <!-- <h2>The Trend Ss19</h2> -->
+                    </span>
+                  </div>
+                  <div class="header__image">
+                    <!-- <img src="assets/header 2.png" alt="header" /> -->
+                  </div>
+                </div>
+              </a>
+            </li>
+
+          </div>
+          <div id="tick2"></div>
+        </div>
+
+
+
+        <section class="section__container">
+          <div class="instagran-container" style="display: flex; flex-direction: column; align-items: center;">
+            <div class="magnet">
+              <h2 class="section__title">INSTAGRAM</h2>
+            </div>
+            <h4>JOIN THE COMMUNITY, #BeTheChange</h4>
+            <div class="instagram__grid view-card">
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/00MSTKR23V35_2.jpg" alt="instagram" />
+              </div>
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/sherwanis-thumbnails.jpg" alt="instagram" />
+              </div>
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/MSTEKR23V211_4.jpg" alt="instagram" />
+              </div>
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/0MSTEKR23V38_1.jpg" alt="instagram" />
+              </div>
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/2-piece-thumbnails.jpg" alt="instagram" />
+              </div>
+              <div class="insta-box" data-cursor-text="View">
+                <img src="assets/all/intermix-thumbnail_96c4ae77-4f48-4293-a8e6-c0e420dc02c22.jpg" alt="instagram" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <footer class="section__container footer__container">
+          <div class="footer__col">
+            <div class="magnet">
+              <h4 class="footer__heading">CONTACT INFO</h4>
+            </div>
+            <p>
+              <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+            </p>
+            <p><i class="ri-mail-fill"></i> support@darrzi.com</p>
+            <p><i class="ri-phone-fill"></i> (+92) 123 45678</p>
+          </div>
+          <div class="footer__col">
+            <div class="magnet">
+              <h4 class="footer__heading">COMPANY</h4>
+            </div>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Work With Us</p>
+            <p>Our Blog</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="footer__col">
+            <div class="magnet">
+              <h4 class="footer__heading">USEFUL LINK</h4>
+            </div>
+            <p>Help</p>
+            <p>Track My Order</p>
+            <p>Kurta</p>
+            <p>Unstitched</p>
+
+          </div>
+          <div class="footer__col">
+            <div class="magnet">
+              <h4 class="footer__heading">NEWSLETTER</h4>
+            </div>
+            <div class="footer__form">
+              <form>
+                <input type="text" placeholder="ENTER YOUR EMAIL" />
+                <div class="magnet">
+                  <button class="btn" style="color: white; border-radius: 20px; padding: 1.1rem 2rem;"
+                    type="submit">SUBSCRIBE</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </footer>
+
+        <hr />
+
+        <div class="section__container footer__bar">
+          <div class="copyright">
+            Copyright © 2023 Darrzi. All rights reserved.
+          </div>
+
+        </div>
+
+
+
 
       </div>
-
-
-
-
     </div>
   </div>
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
 
-  <script>
-    // dots is an array of Dot objects,
-    // mouse is an object used to track the X and Y position
-    // of the mouse, set with a mousemove event listener below
-    var dots = [],
-      mouse = {
-        x: 0,
-        y: 0
-      };
 
-    // The Dot object used to scaffold the dots
-    var Dot = function () {
-      this.x = 0;
-      this.y = 0;
-      this.node = (function () {
-        var n = document.createElement("div");
-        n.className = "trail";
-        document.body.appendChild(n);
-        return n;
-      }());
-    };
-    // The Dot.prototype.draw() method sets the position of 
-    // the object's <div> node
-    Dot.prototype.draw = function () {
-      this.node.style.left = this.x + "px";
-      this.node.style.top = this.y + "px";
-    };
 
-    // Creates the Dot objects, populates the dots array
-    for (var i = 0; i < 100; i++) {
-      var d = new Dot();
-      dots.push(d);
-    }
 
-    // This is the screen redraw function
-    function draw() {
-      // Make sure the mouse position is set everytime
-      // draw() is called.
-      var x = mouse.x,
-        y = mouse.y;
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-      // This loop is where all the 90s magic happens
-      dots.forEach(function (dot, index, dots) {
-        var nextDot = dots[index + 1] || dots[0];
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        dot.x = x;
-        dot.y = y;
-        dot.draw();
-        x += (nextDot.x - dot.x) * .10;
-        y += (nextDot.y - dot.y) * .10;
-
-      });
-    }
-
-    addEventListener("mousemove", function (event) {
-      //event.preventDefault();
-      mouse.x = event.pageX;
-      mouse.y = event.pageY;
+  <script type="text/javascript">
+    $('.slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
     });
-
-    // animate() calls draw() then recursively calls itself
-    // everytime the screen repaints via requestAnimationFrame().
-    function animate() {
-      draw();
-      requestAnimationFrame(animate);
-    }
-
-    // And get it started by calling animate().
-    animate();
-
+    // $('.slid').slick({
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 1500,
+    // });					
   </script>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
 
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 
-  <!--  Gsap is needed for Basic Effects -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-  <!-- Scroll Trigger is needed for Scroll Effects -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-  <!-- Three.js is needed for 3d Effects -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
 
-  <!-- ControlKit is needed for Debug Panel -->
   <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
 
   <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>

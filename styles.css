@@ -2,10 +2,10 @@
 
 :root {
   --primary-color: #f0e0ab;
-  --text-dark: #030712;
+  --text-dark: #000000;
   --text-light: #6b7280;
   --extra-light: #fffaeb;
-  --white: #f3e1b8;
+  --white: #ffffff;
   --max-width: 1200px;
 }
 
@@ -108,7 +108,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-left: 30rem;
+  padding-left: 10rem;
   gap: 1rem;
 }
 
@@ -257,6 +257,7 @@ header {
   margin-top: 50px;
   z-index: 1;
   overflow: hidden;
+  display: block;
 }
 
 .follow-image-container {
@@ -676,7 +677,11 @@ header {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+
 }
+
+
 
 .cool-btn {
   border: 1px solid white;
@@ -759,7 +764,7 @@ header {
 .img-capsule {
   width: 320px;
   height: 180px;
-  background-image: url(https://i.pinimg.com/originals/73/d5/3a/73d53a4544535719da92cc6ba2722332.gif);
+  background-image: url(/assets/fabric.gif);
   background-size: cover;
   background-position: center;
   border-radius: 100px;
@@ -842,7 +847,8 @@ header {
 }
 
 .Yscroll {
-  /* margin: 0 !important; */
+  margin: 0 !important;
+  padding: 0;
 }
 
 #container {
@@ -862,4 +868,229 @@ header {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+#tick li,
+#tick2 li {
+  list-style-type: none;
+  float: left;
+  padding-right: 20px;
+  position: absolute;
+  left: 0px;
+}
+
+#tick,
+#tick2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  content="";
+  display: table;
+  height: 0px;
+}
+
+#outer {
+  width: 100%;
+  margin: 30px 0;
+  height: 250px;
+  overflow: hidden;
+}
+
+#outer a {
+  text-decoration: none;
+  color: #333;
+  font-family: Calibri;
+  font-size: 80px;
+}
+
+.mobile__nav {
+  display: none;
+}
+
+.mob-cap {
+  display: block;
+}
+
+.mobile-hero {
+  display: none;
+}
+
+.mob-menu {
+  display: none;
+}
+
+
+@media (max-width: 991px) {
+  .img-capsule {
+    width: 235px !important;
+    height: 150px !important;
+  }
+
+  #outer {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 55px !important;
+    line-height: 45px;
+    font-weight: 600;
+  }
+
+  .textbtn {
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+  }
+
+  #tick li,
+  #tick2 li {
+    margin-left: 20px;
+  }
+
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .follow-image {
+    display: none;
+  }
+
+  .video-container {
+    height: 165px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .superhero {
+    display: none;
+  }
+
+  .nav__icons {
+    display: none;
+  }
+
+  .nacv__links {
+    display: none;
+  }
+
+  .mobile__nav {
+    font-size: 25px;
+    display: block;
+  }
+
+  .mobile__nav :nth-child(1) {
+    margin: 0 3px;
+
+  }
+
+  .mob-cap {
+    display: none;
+  }
+
+  .mob {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .mobile-hero {
+    display: block;
+  }
+
+  .mob-card {
+    height: 93vh;
+    width: 100vw;
+  }
+
+  .mob-card img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slick-next,
+  .slick-prev {
+    visibility: hidden;
+  }
+
+  .slick-next {
+    right: 10px;
+  }
+
+  .slick-prev {
+    left: 10px;
+  }
+
+  .mob-menu {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    z-index: 999;
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 70%;
+    border-radius: 10px;
+  }
+
+  .close-btn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+  }
+
+  .close-btn span {
+    padding: 10px;
+  }
+
+  .menu-logo {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .menu-logo h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .menu-links {
+    text-align: center;
+  }
+
+  .menu-links ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .menu-links ul li a {
+    color: black;
+    font-size: 30px;
+    padding: 8px;
+    font-weight: 500;
+  }
+
+  .menu-social-icon {
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .menu-social-icon span i {
+    font-size: 25px;
+    color: #000000;
+    padding: 0 15px;
+  }
+
 }
