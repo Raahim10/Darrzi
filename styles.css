@@ -810,7 +810,6 @@ header {
 .back {
   width: 100%;
   pointer-events: all;
-  height: 100%;
 
 }
 
@@ -1058,12 +1057,18 @@ header {
   .menu-logo {
     text-align: center;
     padding: 30px 0;
+    display: flex;
+    justify-content: center;
   }
 
   .menu-logo h1 {
     font-size: 40px;
     color: black;
     font-weight: 700;
+  }
+
+  .menu-logo img {
+    width: max-content;
   }
 
   .menu-links {
