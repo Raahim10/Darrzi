@@ -810,6 +810,7 @@ header {
 .back {
   width: 100%;
   pointer-events: all;
+  height: max-content;
 
 }
 
