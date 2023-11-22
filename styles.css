@@ -207,7 +207,7 @@ header {
 
 .collection__container {
   position: relative;
-  margin-top: 50%;
+  /* margin-top: 70%; */
 }
 
 .collection__container img {
@@ -253,7 +253,7 @@ header {
 .follow-image {
   position: relative;
   width: 100%;
-  height: 200vh;
+  height: 250vh;
   margin-top: 50px;
   z-index: 1;
   overflow: hidden;
@@ -279,14 +279,28 @@ header {
   height: 90%;
   display: flex;
   align-items: center;
+  z-index: -90;
   justify-content: center;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.8s !important;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.8s;
   border-radius: 300px;
   transform-origin: center;
   max-width: 100%;
   max-height: 100%;
   pointer-events: none;
 
+}
+
+.grid {
+  position: relative;
+  z-index: 5;
+  background-color: #fffaeb;
+}
+
+.oncircle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
 }
 
 .my-follow-image img {
@@ -960,7 +974,7 @@ header {
   .video-container {
     height: 165px;
     margin-top: 50px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
   }
 
   .superhero {
@@ -1101,4 +1115,61 @@ header {
 
   }
 
+}
+
+.myouter {
+  transition: all 0.8s ease-in-out;
+  transform: translateX(-320px);
+  opacity: 0;
+}
+
+.show-animate {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.video-box {
+  margin-right: 70px;
+  margin-left: 70px;
+  background-color: gainsboro;
+  border-radius: 1500px;
+  width: 30%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.video-box video {
+  object-fit: cover;
+  width: 110%;
+  height: 110%;
+}
+
+@media (max-width:767px) {
+  .video-box {
+    margin: 0;
+    margin-right: 10px;
+    height: 50%;
+  }
+}
+
+/* 
+.anim {
+  transform: translateX(-300px);
+  transition: all 0.8s ease-in-out;
+  opacity: 0;
+}
+
+.anim2 {
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  transform: translateY(450px);
+
+} */
+
+.circle {
+
+  /* position: fixed !important; */
+  /* top: 50% !important;
+  left: 50% !important; */
+  /* transform: translate(-50%, 30%) !important; */
 }
