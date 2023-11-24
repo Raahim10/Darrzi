@@ -9,7 +9,9 @@ if (window.innerWidth > 1000) {
         borderRadius: '500',
         scrollTrigger: {
             scroller: 'body',
+            // trigger: '.video-container',
             trigger: '.video-box',
+            // markers: true,
             scrub: 2,
             start: 'top 70%',
             end: 'top 20%'
