@@ -810,7 +810,7 @@ header {
 .superhero {
   width: 100%;
   height: 100vh;
-  max-height: 480px;
+  max-height: 550px;
   transform: scale(1) !important;
   transition: all 0.8s ease-in-out;
 }
