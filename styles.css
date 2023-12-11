@@ -329,6 +329,11 @@ header {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
+  height: 420px;
+}
+
+.sale__card img {
+  object-fit: cover;
 }
 
 .sale__content {
@@ -1154,6 +1159,27 @@ header {
     margin-right: 10px;
     height: 50%;
   }
+
+  .newImage {
+    flex-direction: column;
+  }
+
+  .newImage img {
+    margin: 0 !important;
+  }
+
+  .newmobile {
+    display: block !important;
+    top: 24% !important;
+  }
+
+  .collection__content {
+    top: 67%;
+  }
+}
+
+.newmobile {
+  display: none;
 }
 
 /* 
